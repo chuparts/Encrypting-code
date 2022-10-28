@@ -4,8 +4,8 @@
 #include <string.h>
 
 
-// Your functions here
-void encrypt(char str[]){ 									//TASK 1
+
+void encrypt(char str[]){ 
 
 	int index;
 	int index2;
@@ -478,10 +478,6 @@ int main()
 		}
 
 	}while (IDupd!=0);
-
-
-	// DO NOT WRITE ANYTHING BELOW THIS LINE!
-	// DO NOT REMOVE OR CHANGE THIS LINE, IT IS USED FOR AUTOMATIC PROCESSING.
 
 	return 0;
 }
