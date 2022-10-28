@@ -410,19 +410,12 @@ Member updateRecord(Member members[], int pos, char newresult[9], int day, int m
 int main()
 {
 	setvbuf(stdout, NULL, _IONBF, 0);
-	printf("Assylzhan Omarov\n\n");
 
-	printf("------\n");
-	printf("TASK 1\n");
-	printf("------\n");
 	char S[500] = "So, few years ago I found this really neat and fascinating thing that is called pizza among humans."
 			" It's a circle looking, delicious piece of bread with sauce and various toppings on it."; // you can change this
 	//I used a longer string to check the encryption
 	encrypt(S);
 
-	printf("\n\n\n------\n");
-	printf("TASK 2\n");
-	printf("------\n");
 
 
 	Member members[100];
@@ -431,9 +424,6 @@ int main()
 
 	printf("Number of lines in a file \"pcr_results.txt\" is: %i", lineNumber);
 
-	printf("\n\n\n------\n");
-	printf("TASK 3\n");
-	printf("------\n");
 
 	int IDupd;		//updated ID
 
