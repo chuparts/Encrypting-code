@@ -142,7 +142,7 @@ void encrypt(char str[]){
 
 }
 
-typedef struct											//TASK 2
+typedef struct
 {
 	int day;
 	int month;
